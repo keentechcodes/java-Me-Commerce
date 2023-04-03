@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="111.0" spacing="8.0" style="-fx-background-color: #2c3e50;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.DrawerContentController">
+    <padding>
+        <Insets top="15.0" />
+    </padding>
+    <children>
+        <JFXButton fx:id="productListing" alignment="CENTER" contentDisplay="CENTER" prefHeight="35.0" prefWidth="107.0" style="-fx-background-color: #3498db; -fx-text-fill: white; -fx-font-size: 16px; -fx-background-radius: 10;" text="Shop" />
+        <JFXButton fx:id="shoppingCart" prefWidth="107.0" style="-fx-background-color: #3498db; -fx-text-fill: white; -fx-font-size: 16px; -fx-background-radius: 10;" text="Cart" />
+        <JFXButton fx:id="wishlist" prefHeight="35.0" prefWidth="107.0" style="-fx-background-color: #3498db; -fx-text-fill: white; -fx-font-size: 16px; -fx-background-radius: 10;" text="Wishlist" />
+        <JFXButton fx:id="userAccount" style="-fx-background-color: #3498db; -fx-text-fill: white; -fx-font-size: 16px; -fx-background-radius: 10;" text="My Account" />
+        <!-- Add other menu items here -->
+    </children>
+</VBox>
