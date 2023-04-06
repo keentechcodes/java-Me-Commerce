@@ -22,13 +22,21 @@
     <TextField fx:id="searchbar" layoutX="332.0" layoutY="60.0" promptText="Search products" />
     <JFXButton layoutX="494.0" layoutY="55.0" styleClass="button" text="Search" />
       <FlowPane layoutX="25.0" layoutY="150.0" prefHeight="400.0" prefWidth="750.0">
-         <!-- Add ImageView and Label elements for featured products here -->
-         <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
-            <image>
-               <Image url="@../images/product1.png" />
-            </image>
-         </ImageView>
-         <Label styleClass="label" text="Product 1" />
+         <FlowPane>
+            <children>
+               <!-- Add ImageView and Label elements for featured products here -->
+               <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../images/product1.png" />
+                  </image>
+               </ImageView>
+            </children>
+         </FlowPane>
+         <FlowPane>
+            <children>
+               <Label styleClass="label" text="Product 1" />
+            </children>
+         </FlowPane>
       </FlowPane>
    </children>
 </AnchorPane>
